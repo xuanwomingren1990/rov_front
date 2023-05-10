@@ -13,7 +13,7 @@
         <div class="home-left">
         </div>
         <!-- 右侧面板 -->
-        <div class="home-right">
+        <!-- <div class="home-right" disabled>
             <div class="toolbar">
                 <div class="toolbar-item" id="createPoint">
                     <span class="iconfont">&#xf0117;</span>
@@ -40,8 +40,11 @@
                     <span>路线规划</span>
                 </div>
             </div>
+        </div> -->
+        <!-- 智能监控---仪表盘 -->
+        <div class="home-right">
+        <my-panel></my-panel>
         </div>
-        <!-- 三维可视化---工具栏 -->
 
     </div>
 </template>
@@ -56,12 +59,15 @@ import Compass from "@arcgis/core/widgets/Compass.js";
 import NavigationToggle from "@arcgis/core/widgets/NavigationToggle.js";
 import Zoom from "@arcgis/core/widgets/Zoom.js";
 import Measurement from "@arcgis/core/widgets/Measurement.js";
+// import * as echarts from 'echarts';
+import MyPanel from 'components/content/panel/MyPanel';
 // import LayerList from "@arcgis/core/widgets/LayerList.js";
 export default {
     name: 'Home',
     components: {
         TabBar,
-        TabBarItem
+        TabBarItem,
+        MyPanel,
     },
     props: {
     },
