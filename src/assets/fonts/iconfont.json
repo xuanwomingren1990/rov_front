@@ -1,0 +1,58 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1208",
+      "name": "标签",
+      "font_class": "biaoqian",
+      "unicode": "f0117",
+      "unicode_decimal": 983319
+    },
+    {
+      "icon_id": "1967589",
+      "name": "路线规划",
+      "font_class": "luxianguihua",
+      "unicode": "e71b",
+      "unicode_decimal": 59163
+    },
+    {
+      "icon_id": "2538898",
+      "name": "测面",
+      "font_class": "cemian",
+      "unicode": "e830",
+      "unicode_decimal": 59440
+    },
+    {
+      "icon_id": "21969819",
+      "name": "三维漫游",
+      "font_class": "sanweimanyou",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "23570983",
+      "name": "清除测量",
+      "font_class": "qingchuceliang",
+      "unicode": "ec26",
+      "unicode_decimal": 60454
+    },
+    {
+      "icon_id": "27833986",
+      "name": "标记点",
+      "font_class": "biaojidian",
+      "unicode": "e826",
+      "unicode_decimal": 59430
+    },
+    {
+      "icon_id": "32907123",
+      "name": "测距",
+      "font_class": "ceju",
+      "unicode": "e66e",
+      "unicode_decimal": 58990
+    }
+  ]
+}
