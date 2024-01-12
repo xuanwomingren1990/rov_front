@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import MainTabBar from "components/content/mainTabbar/MainTabBar"
+// import MainTabBar from "components/content/mainTabbar/MainTabBar"
 import NavBar from "components/common/navbar/NavBar"
 import BottomBar from "./components/common/bottombar/BottomBar";
 import Home from "./views/home/Home"
@@ -16,7 +16,7 @@ export default {
     name: 'App',
     components: {
         NavBar,
-        MainTabBar,
+        // MainTabBar,
         BottomBar,
         Home
     }
